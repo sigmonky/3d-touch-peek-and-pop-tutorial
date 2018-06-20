@@ -11,10 +11,10 @@
 		86A4F0AA1BC43D40004ECDF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A4F0A81BC43D40004ECDF6 /* Main.storyboard */; };
 		86A4F0AC1BC43D40004ECDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A4F0AB1BC43D40004ECDF6 /* Assets.xcassets */; };
 		86A4F0AF1BC43D40004ECDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A4F0AD1BC43D40004ECDF6 /* LaunchScreen.storyboard */; };
-		86A4F0B71BC43EA8004ECDF6 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A4F0B61BC43EA8004ECDF6 /* PhotoCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		86A4F0B91BC43ED5004ECDF6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A4F0B81BC43ED5004ECDF6 /* Photo.swift */; settings = {ASSET_TAGS = (); }; };
-		86A4F0BB1BC4411B004ECDF6 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A4F0BA1BC4411B004ECDF6 /* PhotoCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		86CEAF191BC447DF002665B0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CEAF181BC447DF002665B0 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		86A4F0B71BC43EA8004ECDF6 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A4F0B61BC43EA8004ECDF6 /* PhotoCollectionViewController.swift */; };
+		86A4F0B91BC43ED5004ECDF6 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A4F0B81BC43ED5004ECDF6 /* Photo.swift */; };
+		86A4F0BB1BC4411B004ECDF6 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A4F0BA1BC4411B004ECDF6 /* PhotoCollectionViewCell.swift */; };
+		86CEAF191BC447DF002665B0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CEAF181BC447DF002665B0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +120,7 @@
 				TargetAttributes = {
 					86A4F0A01BC43D40004ECDF6 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = EP95Q9Q2HM;
 					};
 				};
 			};
@@ -230,6 +231,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -267,6 +269,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -276,10 +279,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EP95Q9Q2HM;
 				INFOPLIST_FILE = PeekPop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.thenerd.tutorials.PeekPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -287,10 +292,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EP95Q9Q2HM;
 				INFOPLIST_FILE = PeekPop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.thenerd.tutorials.PeekPop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
